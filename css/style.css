@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(97, 245, 109);
+}
+
+.sky {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(61, 132, 214), rgb(229, 232, 241));
+    border-radius: 0px 0px 100px 0px;
+}
+
+.cloud {
+    position: relative;
+    animation-name: cloud_ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud_ani {
+    0% {
+        margin-top: 20px;
+    }
+    25% {
+        margin-left: 20px;
+    }
+    50% {
+        margin-bottom: 20px;
+    }
+    75% {
+        margin-right: 20px;
+    }
+    100% {
+        margin-top: 20px;
+    }
+}
+
+.grass {
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(97, 245, 109), rgb(2, 248, 2));
+
+}
+
+.tree {
+    width: 15%;
+    padding: 0px 50px 0px 50px;
+}
+
+.road {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.strip1 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.strip2 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.strip3 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.strip4 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.strip5 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
+
+.strip6 {
+    margin: 0px 50px 0px 50px;
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+}
